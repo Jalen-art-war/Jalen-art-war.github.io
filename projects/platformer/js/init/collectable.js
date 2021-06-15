@@ -31,18 +31,8 @@
      *      bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
      */ 
     function init(game) {
-        let createCollectable = collectable.create;
-
-        ////////////////////////////////////////////////////////////////////////
-        // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
-        // example: 
-        createCollectable(type.steve, 200, 180, 7, 0.7);
-        
-        
-        
-        // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////
+        let createCollectable = collectable.create; 
+    createCollectable(type.steve, 200, 180, 7, 0.7);
     };
     collectable.init = init;
 })(window);
