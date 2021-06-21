@@ -33,6 +33,8 @@
     function init(game) {
         let createCollectable = collectable.create; 
     createCollectable(type.steve, 200, 180, 7, 0.7);
+    createCollectable(type.kennedi, 400, 200);
+    createCollectable(type.max, 600, 500);
     };
     collectable.init = init;
 })(window);

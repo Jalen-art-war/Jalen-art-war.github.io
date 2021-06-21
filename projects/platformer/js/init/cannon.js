@@ -25,6 +25,7 @@
         let createCannon = cannon.create;
     createCannon("top", 500); // a cannon on the top of the screen, located at x = 500
     createCannon("left", 300, 1000); // a cannon on the left side of the screen, located at y = 400, with a 1 second delay (1000ms) )         
+    createCannon("right", 400); // a cannon on the top of the screen, located at x = 400
     };
     cannon.init = init;
 })(window);
