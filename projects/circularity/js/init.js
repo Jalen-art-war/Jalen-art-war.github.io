@@ -34,18 +34,18 @@ var init = function (window) {
             physikz.addRandomVelocity(circle, canvas);
 
             // add the circle to circles array, add to view
-            circles.push(circle);
             view.addChild(circle);
-            }
+            circles.push(circle);
+        }
 
 
 
         // TODO 3 / 8 : Call the drawCircle() function 
-             drawCircle();
-             drawCircle();
-             drawCircle();
-             drawCircle();
-             drawCircle();
+             drawCircle(canvas, true, );
+             drawCircle(1);
+             drawCircle(2);
+             drawCircle(3);
+             drawCircle(4);
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -63,13 +63,22 @@ var init = function (window) {
             physikz.updateposition([2]);
             physikz.updateposition([3]);
             physikz.updateposition([4]);
+        }
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
             
+            game.checkCirclePosition([])
+            game.checkCirclePosition([])
+            game.checkCirclePosition([])
+            game.checkCirclePosition([])
+            game.checkCirclePosition([])
 
+            
+            
             // TODO 9 : Iterate over the array
            
+
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
