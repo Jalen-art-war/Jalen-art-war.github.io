@@ -48,7 +48,9 @@ var init = function (window) {
         function update() {
             // TODO 4 : Update the circle's position //
             // the function call was repetitive
-
+            for(var i = 0; i < 100; i++){
+                physikz.updatePosition(circles[i]);
+            }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
             // the fuction call was repetitive
@@ -58,8 +60,8 @@ var init = function (window) {
 
 
             // TODO 9 : Iterate over the array
-            for(var i = 0; i < 100; i++){
-                physikz.updatePosition(circles[i]);
+            //for(var i = 0; i < 100; i++){
+                //physikz.updatePosition(circles[i]);
             }
 
             
